@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ani{
+    animation-name: ani;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    background-image: url(/Images/jj.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes ani {
+    0%{
+        background-image: url('/Images/jjjj.jpg');
+    }
+    
+    50%{
+        background-image: url('/Images/NAOH.jpg');
+    }
+    
+    100%{
+        background-size: contain;
+        background-image: url('/Images/j.jpg');
+    }
+}
